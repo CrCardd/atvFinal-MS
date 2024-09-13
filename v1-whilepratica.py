@@ -2,6 +2,9 @@ total = 0
 height = 1
 while height > 0:
     height = float(input('Qual a altura da pessoa em centimetros ( 0 - sair )? \n>> '))
+    if height == 0:
+        break    
+
     gender = input('Qual o sexo da pessoa (M/F)?\n>> ')
     if gender.upper() == 'M':
         resp = (72.7 * height)-58
