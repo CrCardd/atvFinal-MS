@@ -1,4 +1,4 @@
-def check_play(tab, jog):    
+def check_play(tab):    
     check = False
     h = ''
     v = ''
